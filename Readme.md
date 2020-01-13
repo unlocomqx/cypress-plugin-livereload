@@ -13,30 +13,21 @@ npm install cypress-livereload
 Add to your `cypress/support/index.js` file
 
 ```js
-require('cypress-livereload')()
+require('cypress-livereload');
 ```
 
 # Options
-You can pass options directly to the plugin
+You can configure the plugin in `cypress.json` 
 
-```js
-require("cypress-livereload")({
+You only need to include the options that are different than the default value
+
+```json
+"livereload": {
   hostname: null,
   https: false,
   port: 35729,
   delay: 0,
-});
-
-//or
-
-const cypress_livereload = require('cypress-livereload');
-cypress_livereload({
-  hostname: null,
-  https: false,
-  port: 35729,
-  delay: 0,
-});
-
+}
 ```
 
 - **hostname**: (Default: **null**) leave to null to use the current hostname
