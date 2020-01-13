@@ -1,0 +1,16 @@
+{
+  "name": "cypress-livereload",
+  "version": "1.0.0",
+  "description": "Reload Cypress tester using livereload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cypress",
+    "Livereload",
+    "Plugin"
+  ],
+  "author": "unlocomqx",
+  "license": "ISC"
+}
