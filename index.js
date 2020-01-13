@@ -15,8 +15,6 @@ const options = Object.assign({
   delay: 0,
 }, config);
 
-console.log(options);
-
 if (!options.hostname) {
   options.hostname = window.location.hostname;
 }

@@ -21,7 +21,7 @@ You can configure the plugin in `cypress.json`
 
 You only need to include the options that are different than the default value
 
-```json
+```javascript
 "livereload": {
   hostname: null,
   https: false,
