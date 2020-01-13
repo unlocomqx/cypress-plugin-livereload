@@ -12,5 +12,8 @@
     "Plugin"
   ],
   "author": "unlocomqx",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "debounce": "^1.2.0"
+  }
 }
