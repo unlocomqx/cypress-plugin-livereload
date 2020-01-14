@@ -2,10 +2,10 @@
   "name": "cypress-plugin-livereload",
   "version": "1.4.0",
   "description": "Reload Cypress tester using livereload",
-  "homepage": "https://github.com/unlocomqx/cypress-livereload#readme",
+  "homepage": "https://github.com/unlocomqx/cypress-plugin-livereload#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unlocomqx/cypress-livereload"
+    "url": "git+https://github.com/unlocomqx/cypress-plugin-livereload"
   },
   "main": "index.js",
   "scripts": {
