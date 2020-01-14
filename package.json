@@ -1,5 +1,5 @@
 {
-  "name": "cypress-livereload",
+  "name": "cypress-plugin-livereload",
   "version": "1.4.0",
   "description": "Reload Cypress tester using livereload",
   "homepage": "https://github.com/unlocomqx/cypress-livereload#readme",
