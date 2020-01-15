@@ -23,10 +23,10 @@ You only need to include the options that are different than the default value
 
 ```javascript
 "livereload": {
-  hostname: null,
-  https: false,
-  port: 35729,
-  delay: 0,
+  "hostname": null,
+  "https": false,
+  "port": 35729,
+  "delay": 0
 }
 ```
 
