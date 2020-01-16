@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/cypress-plugin-livereload)
+
 # cypress-plugin-livereload
 
 > Reload Cypress tester using livereload
