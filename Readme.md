@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/cypress-plugin-livereload)
+[<img src="https://img.shields.io/npm/v/cypress-plugin-livereload">](https://www.npmjs.com/package/cypress-plugin-livereload)
 
 # cypress-plugin-livereload
 
