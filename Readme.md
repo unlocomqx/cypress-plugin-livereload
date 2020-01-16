@@ -1,11 +1,11 @@
-# cypress-livereload
+# cypress-plugin-livereload
 
 > Reload Cypress tester using livereload
 
 ## Installation
 
 ```shell
-npm install cypress-livereload
+npm install cypress-plugin-livereload
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install cypress-livereload
 Add to your `cypress/support/index.js` file
 
 ```js
-require('cypress-livereload');
+require('cypress-plugin-livereload');
 ```
 
 # Options
