@@ -19,7 +19,7 @@ if (!options.hostname) {
 }
 
 const ws = new WebSocket(getUrl(options));
-console.log(ws);
+
 let reloadCypress = () => {
   setTimeout(() => {
     console.info("Cypress reload triggered by livereload");
