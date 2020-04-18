@@ -44,10 +44,6 @@ beforeEach(() => {
           debouncedReload();
         }
       } catch (e) {
-        console.error("Could not parse message from livereload");
-        console.error(e.message);
-        console.error("Original data");
-        console.error(ev.data);
       }
     }
   };
