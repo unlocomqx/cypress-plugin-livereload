@@ -30,7 +30,6 @@ const debouncedReload = debounce(reloadCypress, 333);
 
 beforeEach(() => {
   ws.onmessage = (ev) => {
-    console.log(ev.type);
     if (ev.type === "message" && ev.data) {
 
       // some libs don't send JSON
