@@ -32,6 +32,13 @@ beforeEach(() => {
   ws.onmessage = (ev) => {
     console.log(ev.type);
     if (ev.type === "message" && ev.data) {
+
+      // some libs don't send JSON
+      if (ev.data === "reload") {
+        debouncedReload();
+        return;
+      }
+
       try {
         const data = JSON.parse(ev.data);
         if (data.command === "reload") {
